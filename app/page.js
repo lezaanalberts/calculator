@@ -31,8 +31,8 @@ export default function Home(){
   ];
 
   // square root function
-  function countSquares(x){
-    var sqr= parseInt(Math.sqrt(x));
+  function countSquares({btn}){
+    var sqr= parseInt(Math.sqrt({btn}));
     var result= parseInt(sqr);
     return result;
   } 
