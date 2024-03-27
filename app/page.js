@@ -27,9 +27,10 @@ export default function Home(){
     '4', '5', '6', '*',
     '1', '2', '3', '-',
     '0', '.', '=', '+',
-    'C'
+    'C', '√', '^2'
   ];
 
+  bloop 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <h1 className="text-4xl font-bold mb-10 color:rgb(252 165 165)">Calculator</h1>
@@ -57,6 +58,7 @@ export default function Home(){
               >
                 {btn}
               </button>
+            
           ))}
         </div>
       </div>
